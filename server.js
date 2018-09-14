@@ -1,6 +1,8 @@
 
 const express = require('express');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
+
+//comment
 
 const app = express();
 
@@ -15,7 +17,7 @@ app.get('/', (req, res) =>{
 });
 
 app.post('/createUser/', (req, res) =>{
-    console.log('test');
+    
 });
 
 app.listen(5000, () =>{
